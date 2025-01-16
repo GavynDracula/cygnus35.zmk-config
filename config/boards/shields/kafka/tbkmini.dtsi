@@ -84,12 +84,13 @@ tkbmini: tkbmini {
             , <&key_physical_attrs 100 100 1300  200       0     0     0>
             , <&key_physical_attrs 100 100 1400  200       0     0     0>
             , <&key_physical_attrs 100 100 1500  200       0     0     0>
-            , <&key_physical_attrs 100 100  400  350       0     0     0>
-            , <&key_physical_attrs 100 100  500  350       0     0     0>
+
             , <&key_physical_attrs 100 100  600  350       0     0     0>
-            , <&key_physical_attrs 100 100  900  350       0     0     0>
-            , <&key_physical_attrs 100 100 1000  350       0     0     0>
+            , <&key_physical_attrs 100 100  500  350       0     0     0>
+            , <&key_physical_attrs 100 100  400  350       0     0     0>
             , <&key_physical_attrs 100 100 1100  350       0     0     0>
+            , <&key_physical_attrs 100 100 1000  350       0     0     0>
+            , <&key_physical_attrs 100 100  900  350       0     0     0>
             ;
     };
 
