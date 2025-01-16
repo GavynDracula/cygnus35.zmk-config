@@ -12,7 +12,7 @@
 
 		zmk,kscan = &kscan0;
 	
-		zmk,physical-layout = &tkbmini;
+		zmk,physical-layout = &tbkmini;
 	};
 
 	default_transform: keymap_transform_0 {
@@ -41,7 +41,7 @@
 				;
 	};
 
-tkbmini: tkbmini {
+tbkmini: tbkmini {
 		compatible = "zmk,physical-layout";
 		display-name = "matrix layout";
 	 kscan = <&kscan0>;
