@@ -4,4 +4,4 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "../../../tbkmini.keymap"
+#include "../../../cygnus.keymap"

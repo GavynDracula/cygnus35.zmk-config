@@ -1,11 +1,11 @@
 file_format: "1"
-id: tbkmini
-name: tbkmini
+id: cygnus
+name: cygnus
 type: shield
 url: https://github.com/jimmerricks/swoop
 requires: [pro_micro]
 features:
   - keys
 siblings:
-  - tbkmini_left
-  - tbkmini_right
+  - cygnus_left
+  - cygnus_right
