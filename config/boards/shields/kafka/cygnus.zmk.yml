@@ -6,6 +6,8 @@ url: https://github.com/jimmerricks/swoop
 requires: [pro_micro]
 features:
   - keys
+  - pointer
+  - underglow
 siblings:
   - cygnus_left
   - cygnus_right
