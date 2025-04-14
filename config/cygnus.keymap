@@ -86,73 +86,73 @@
 
         default_layer {
             bindings = <
-&kp CAPS        &kp Q      &kp W         &kp E        &kp R  &kp T  &kp Y  &kp U  &kp I         &kp O    &kp P                &kp BACKSPACE
-&kp LEFT_SHIFT  &kp A      &kp S         &kp D        &kp F  &kp G  &kp H  &kp J  &kp K         &kp L    &as COLON SEMICOLON  &kp ENTER
-&kp LCTRL       &kp Z      &kp X         &kp C        &kp V  &kp B  &kp N  &kp M  &kp COMMA     &kp DOT  &as QUESTION SLASH   &kp RIGHT_SHIFT
-                &kp N1  &kp N2  &kp N3                            &kp N4  &kp N5    &kp N6
+&kp Q  &kp W  &kp E         &kp R        &kp T       &kp Y  &kp U      &kp I      &kp O    &kp P
+&kp A  &kp S  &kp D         &kp F        &kp G       &kp H  &kp J      &kp K      &kp L    &kp COLON
+&kp Z  &kp X  &kp C         &kp V        &kp B       &kp N  &kp M      &kp COMMA  &kp DOT  &as QUESTION SLASH
+                  &ltq 3 ESC &ltq 1 BSPC &ltq 2 ENTER       &kp SPACE &to 5
             >;
         };
 
         lower_layer {
             bindings = <
-&none  &kp LG(D)  &kp LA(A)  &kp UP     &kp DELETE  &kp LA(F4)  &trans     &kp N7  &kp N8  &kp N9      &trans      &none
-&none  &kp LC(A)  &kp LEFT   &kp DOWN   &kp RIGHT   &xiayihang  &kp EQUAL  &kp N4  &kp N5  &kp N6      &kp N0      &none
-&none  &kp LC(Z)  &kp LC(X)  &kp RC(C)  &kp LC(V)   &kp LG(V)   &kp MINUS  &kp N1  &kp N2  &kp N3      &kp KP_DOT  &none
-       &trans     &trans     &trans                                                &kp N0  &kp KP_DOT  &trans
+&kp LG(D)   &kp LA(A)  &kp UP    &kp DELETE    &trans     &trans     &kp N7  &kp N8   &kp N9  &trans
+&kp LC(A)  &kp LEFT   &kp DOWN   &kp RIGHT  &trans     &kp EQUAL  &kp N4  &kp N5   &kp N6  &trans
+&kp LC(Z)  &kp LC(X)  &kp RC(C)  &kp LC(V)  &kp LG(V)  &kp MINUS  &kp N1  &kp N2   &kp N3  &trans
+                      &trans     &trans     &trans                &kp N0  &kp PERIOD
             >;
         };
 
         raise_layer {
             bindings = <
-&trans  &trans     &none       &kp C_VOL_UP  &none       &trans          &kp QUESTION       &kp AMPS  &kp ASTERISK  &kp LPAR   &trans    &trans
-&trans  &kp CAPS   &kp C_PREV  &kp C_PP      &kp C_NEXT  &kp LGUI        &kp COLON          &kp DLLR  &kp PRCNT     &kp CARET  &kp RPAR  &trans
-&trans  &kp LCTRL  &kp TAB     &kp C_VOL_DN  &kp LALT    &kp LEFT_SHIFT  &kp DOUBLE_QUOTES  &kp EXCL  &kp AT        &kp HASH   &trans    &trans
-        &trans     &trans      &trans                                                                 &trans        &trans     &trans
+&none   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &none   &none   &none   &none   &none
+&none   &none   &none   &none   &none   &none   &none   &none   &none   &none
+                &none   &none   &none           &none   &none
             >;
         };
 
         layer_3 {
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-       &none  &none  &none                              &none  &none  &none
+&none   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &none   &none   &none   &none   &none
+&none   &none   &none   &none   &none   &none   &none   &none   &none   &none
+                &none   &none   &none           &none   &none
             >;
         };
 
         layer_4 {
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-       &none  &none  &none                              &none  &none  &none
+&none   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &none   &none   &none   &none   &none
+&none   &none   &none   &none   &none   &none   &none   &none   &none   &none
+                &none   &none   &none           &none   &none
             >;
         };
 
         layer_5 {
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-       &none  &none  &none                              &none  &none  &none
+&trans  &trans  &trans  &trans  &trans    &trans  &trans          &trans      &trans           &trans  
+&trans  &trans  &trans  &trans  &trans    &trans  &mkp LCLK  &mkp MCLK    &mkp RCLK  &trans  
+&trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans         &trans         &trans  
+                        &trans  &trans  &trans                        &trans    &to 0
             >;
         };
 
         layer_6 {
             bindings = <
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none  &none
-       &none  &none  &none                              &none  &none  &none
+&none   &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &none   &none   &none   &none   &none
+&none   &none   &none   &none   &none   &none   &none   &none   &none   &none
+                &none   &none   &none           &none   &none
             >;
         };
 
         layer_7 {
             bindings = <
-&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none  &none  &none  &none  &none  &none
-&none  &bt BT_CLR    &none         &none         &none         &to 0         &none  &none  &none  &none  &none  &none
-&none  &none         &none         &none         &none         &none         &none  &none  &none  &none  &none  &none
-       &none         &none         &none                                                   &none  &none  &none
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &none  &none  &none  &none  &none 
+&bt BT_CLR    &none         &none         &none         &to 0         &none  &none  &none  &none  &none  
+&none         &none         &none         &none         &none         &none  &none  &none  &none  &none  
+       &none         &none         &none                                                   &none  &none  
             >;
         };
     };
