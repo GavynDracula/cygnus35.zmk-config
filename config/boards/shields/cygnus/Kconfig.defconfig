@@ -4,12 +4,19 @@
 if SHIELD_CYGNUS_RIGHT
 
 config ZMK_KEYBOARD_NAME
-    default "cygnus"
+    default "Cygnus"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 endif
+
+# if SHIELD_CYGNUS_LEFT
+
+# config ZMK_KEYBOARD_NAME
+	# default "Cygnus Left"
+
+# endif
 
 if SHIELD_CYGNUS_LEFT || SHIELD_CYGNUS_RIGHT
 

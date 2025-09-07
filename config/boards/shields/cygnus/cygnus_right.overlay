@@ -54,9 +54,10 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio0 22 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        scroll-layers = <1>;  //切入1层则轨迹球进入滚轮模式
-        // snipe-layers = <2>; //切入2层则轨迹球进入精准模式，意义不大，我屏蔽了
-        automouse-layer = <5>; //在0层动球，自动切入5层，如果不需要，在前面加//
+        /*   optional features   */
+        scroll-layers = <2>;
+        snipe-layers = <3>;
+        // automouse-layer = <4>;
     };
 };
 
