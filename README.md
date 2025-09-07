@@ -1,1 +1,0 @@
-Bluetooth split keyboard
